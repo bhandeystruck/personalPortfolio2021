@@ -177,20 +177,18 @@ a, a:hover{
     font-weight: 700;
 }
 
-#about .about-pic{
-    width: 50%;
-    padding: 5px;
-}
-
 #about .about-pic img{
-    display: block;
-    max-width: 100%;
     
+    max-width:100%;
+    height:400px;
+    margin-right: -900x;
+    border-radius: 120px;
+
 }
 
 #about .about-content{
     width: 60%;
-    margin-top: -210px;
+    margin-top: -470px;
     letter-spacing: 1px;
 
 }
@@ -402,8 +400,15 @@ a, a:hover{
 }
 
 #portfolio .portfolio-content .portfolio-items img{
+    max-height: initial;
     border-radius: 8px;
  
+}
+
+#portfolio .container .portfolio-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
 }
 
 
@@ -413,12 +418,75 @@ a, a:hover{
 
 #testimonials .testimonials-content{
     padding: 50px 0 30px 0;
+  
+    display: flex;
+
 }
 
-#testimonials{
-    padding: 110px;
-    margin: 50px 50px;
+
+#testimonials .testimonials-content .icon{
+    font-size: 44px;
+    color: orangered;
 }
+
+#testimonials .testimonials-content .testimonials-desc{
+    margin: 20px 0 20px 0;
+    width: 60%;
+    margin: 40px auto;
+    color: #1f1f1f;
+}
+
+#testimonials .testimonials-content .testimonials-profile span{
+    display: block;
+    color: #1f1f1f;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#testimonials .testimonials-content .testimonials-profile span.name{
+    font-weight: 700;
+}
+
+#testimonials .section-cover .testimonials-content .flex-testimonials{
+
+   width:max-content;
+   width: 900px;
+   margin-left: 110px;
+    
+}
+
+#testimonials .section-cover .testimonials-content{
+    
+}
+
+
+
+#testimonials .section-cover .testimonials-content .flex-testimonials li{
+    margin: 20px;
+    width: 300px;
+}
+
+
+#footer{
+    background-color: orangered;
+    position: relative;
+
+}
+
+#footer .footer-bottom{
+    margin:20px 0 0 0 ;
+    padding: 30px 0;
+}
+
+#footer .footer-bottom .copyright{
+color: #fff;
+font-weight: 500;
+text-transform: capitalize;
+font-size: 20px;
+margin: 10px 0 20px 0;
+line-height:26px ;
+}
+
 
 
 
