@@ -86,7 +86,7 @@ a, a:hover{
 
 
 #hero-area .hero-cover{
-    background-image: url('Portfolio/images/4kbg.jpg');
+    background-image: url('/Portfolio/images/4kbg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
